@@ -1,0 +1,131 @@
+body{
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 2px 2px 4px lightgray;
+    text-align: center;
+}
+
+header img{
+    margin-top:15px;
+    height: 50px;
+    padding-left: 40px;
+}
+
+main{
+    clear: left;
+    width: 100%;
+    background-color: white;
+}
+
+.confirm {
+    margin: 40px auto;
+    background-color: white;
+    border: 3px #ebebeb solid;
+    border-radius: 10px;
+    width: 650px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-shadow: 4px 4px 4px lightgrey;
+    text-align: center;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 1px solid green;
+}
+
+p{
+    text-align: left;
+}
+
+h2{
+    text-align: center;
+    border-bottom: solid 1px #31A263;
+    font-size: 20px;
+}
+
+label{
+    display: inline-block;
+    font-size: 13px;
+}
+
+.name{
+    text-align: left;
+    margin: 25px;
+}
+
+.mail{
+    text-align: left;
+    margin: 25px;
+}
+
+.password{
+    text-align: left;
+    margin: 25px;
+}
+
+.picture{
+    text-align: left;
+    margin: 25px;
+}
+
+.comments{
+    text-align: left;
+    margin: 25px;
+}
+
+.confirm_button{
+    text-align: center;
+}
+
+.button1{
+    border: 1px solid lightgray;
+    color: white;
+    background-color: darkgray;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px 0px;
+    cursor: pointer;
+}
+
+.button2{
+    border: 1px solid lightgray;
+    color: white;
+    background-color: #31A263;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px 0px;
+    cursor: pointer;
+}
+
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button1:hover,.button2:hover{
+    border-top: 2px solid #FFF;
+    padding: 6px 6px 3px;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    border-top: lightgray solid 2px;
+}
